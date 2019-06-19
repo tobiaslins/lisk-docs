@@ -1,6 +1,6 @@
 > ## [@liskhq/lisk-api-client](../README.md)
 
-[Globals](../globals.md) / [RequestConfig](requestconfig.md) /
+[RequestConfig](requestconfig.md) /
 
 # Interface: RequestConfig
 

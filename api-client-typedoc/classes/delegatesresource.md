@@ -1,6 +1,6 @@
 > ## [@liskhq/lisk-api-client](../README.md)
 
-[Globals](../globals.md) / [DelegatesResource](delegatesresource.md) /
+[DelegatesResource](delegatesresource.md) /
 
 # Class: DelegatesResource
 
@@ -43,7 +43,7 @@
 
 *Overrides [APIResource](apiresource.md).[constructor](apiresource.md#constructor)*
 
-*Defined in [resources/delegates.ts:75](url)*
+*Defined in [resources/delegates.ts:74](url)*
 
 **Parameters:**
 
@@ -69,9 +69,9 @@ ___
 
 ###  get
 
-● **get**: *[APIHandler](../globals.md#apihandler)*
+● **get**: *[APIHandler](../README.md#apihandler)*
 
-*Defined in [resources/delegates.ts:34](url)*
+*Defined in [resources/delegates.ts:33](url)*
 
 Searches for a specified dapp in the system.
 
@@ -87,9 +87,9 @@ ___
 
 ###  getForgers
 
-● **getForgers**: *[APIHandler](../globals.md#apihandler)*
+● **getForgers**: *[APIHandler](../README.md#apihandler)*
 
-*Defined in [resources/delegates.ts:47](url)*
+*Defined in [resources/delegates.ts:46](url)*
 
 Returns a list of the next forgers in this delegate round.
 
@@ -105,9 +105,9 @@ ___
 
 ###  getForgingStatistics
 
-● **getForgingStatistics**: *[APIHandler](../globals.md#apihandler)*
+● **getForgingStatistics**: *[APIHandler](../README.md#apihandler)*
 
-*Defined in [resources/delegates.ts:61](url)*
+*Defined in [resources/delegates.ts:60](url)*
 
 By passing an existing delegate address and the desired unix timestamps, you can get its forging statistics within the specified timespan.
 If no timestamps are provided, it will use the timestamps from Lisk epoch to current date.
@@ -124,9 +124,9 @@ ___
 
 ###  getStandby
 
-● **getStandby**: *[APIHandler](../globals.md#apihandler)*
+● **getStandby**: *[APIHandler](../README.md#apihandler)*
 
-*Defined in [resources/delegates.ts:74](url)*
+*Defined in [resources/delegates.ts:73](url)*
 
 Calls get with default parameters to retrieve delegates from rank 102 onwards.
 
@@ -146,7 +146,7 @@ ___
 
 *Overrides [APIResource](apiresource.md).[path](apiresource.md#path)*
 
-*Defined in [resources/delegates.ts:75](url)*
+*Defined in [resources/delegates.ts:74](url)*
 
 ___
 

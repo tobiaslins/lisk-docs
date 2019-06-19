@@ -1,6 +1,6 @@
 > ## [@liskhq/lisk-api-client](../README.md)
 
-[Globals](../globals.md) / [NodeResource](noderesource.md) /
+[NodeResource](noderesource.md) /
 
 # Class: NodeResource
 
@@ -44,7 +44,7 @@
 
 *Overrides [APIResource](apiresource.md).[constructor](apiresource.md#constructor)*
 
-*Defined in [resources/node.ts:96](url)*
+*Defined in [resources/node.ts:95](url)*
 
 **Parameters:**
 
@@ -70,9 +70,9 @@ ___
 
 ###  getConstants
 
-● **getConstants**: *[APIHandler](../globals.md#apihandler)*
+● **getConstants**: *[APIHandler](../README.md#apihandler)*
 
-*Defined in [resources/node.ts:34](url)*
+*Defined in [resources/node.ts:33](url)*
 
 Returns all current constants data on the system, e.g. Lisk epoch time and version.
 
@@ -88,9 +88,9 @@ ___
 
 ###  getForgingStatus
 
-● **getForgingStatus**: *[APIHandler](../globals.md#apihandler)*
+● **getForgingStatus**: *[APIHandler](../README.md#apihandler)*
 
-*Defined in [resources/node.ts:49](url)*
+*Defined in [resources/node.ts:48](url)*
 
 *Attention! This is a private endpoint only authorized to whitelisted IPs.*
 
@@ -108,9 +108,9 @@ ___
 
 ###  getStatus
 
-● **getStatus**: *[APIHandler](../globals.md#apihandler)*
+● **getStatus**: *[APIHandler](../README.md#apihandler)*
 
-*Defined in [resources/node.ts:62](url)*
+*Defined in [resources/node.ts:61](url)*
 
 Returns all current status data of the node, e.g. height and broadhash.
 
@@ -126,9 +126,9 @@ ___
 
 ###  getTransactions
 
-● **getTransactions**: *[APIHandler](../globals.md#apihandler)*
+● **getTransactions**: *[APIHandler](../README.md#apihandler)*
 
-*Defined in [resources/node.ts:75](url)*
+*Defined in [resources/node.ts:74](url)*
 
 By specifying the state of the transactions, you get a list of unprocessed transactions matching this state.
 
@@ -148,15 +148,15 @@ ___
 
 *Overrides [APIResource](apiresource.md).[path](apiresource.md#path)*
 
-*Defined in [resources/node.ts:76](url)*
+*Defined in [resources/node.ts:75](url)*
 
 ___
 
 ###  updateForgingStatus
 
-● **updateForgingStatus**: *[APIHandler](../globals.md#apihandler)*
+● **updateForgingStatus**: *[APIHandler](../README.md#apihandler)*
 
-*Defined in [resources/node.ts:96](url)*
+*Defined in [resources/node.ts:95](url)*
 
 *Attention! This is a private endpoint only authorized to whitelisted IPs.*
 

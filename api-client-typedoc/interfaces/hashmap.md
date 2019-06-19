@@ -1,6 +1,6 @@
 > ## [@liskhq/lisk-api-client](../README.md)
 
-[Globals](../globals.md) / [HashMap](hashmap.md) /
+[HashMap](hashmap.md) /
 
 # Interface: HashMap
 

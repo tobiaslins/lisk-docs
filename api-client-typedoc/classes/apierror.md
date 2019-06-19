@@ -1,6 +1,6 @@
 > ## [@liskhq/lisk-api-client](../README.md)
 
-[Globals](../globals.md) / [APIError](apierror.md) /
+[APIError](apierror.md) /
 
 # Class: APIError
 

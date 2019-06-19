@@ -1,6 +1,6 @@
 > ## [@liskhq/lisk-api-client](../README.md)
 
-[Globals](../globals.md) / [APIResponse](apiresponse.md) /
+[APIResponse](apiresponse.md) /
 
 # Interface: APIResponse
 

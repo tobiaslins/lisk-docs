@@ -1,6 +1,6 @@
 > ## [@liskhq/lisk-api-client](../README.md)
 
-[Globals](../globals.md) / [BlocksResource](blocksresource.md) /
+[BlocksResource](blocksresource.md) /
 
 # Class: BlocksResource
 
@@ -68,7 +68,7 @@ ___
 
 ###  get
 
-● **get**: *[APIHandler](../globals.md#apihandler)*
+● **get**: *[APIHandler](../README.md#apihandler)*
 
 *Defined in [resources/blocks.ts:37](url)*
 

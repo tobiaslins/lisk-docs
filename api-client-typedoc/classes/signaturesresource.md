@@ -1,6 +1,6 @@
 > ## [@liskhq/lisk-api-client](../README.md)
 
-[Globals](../globals.md) / [SignaturesResource](signaturesresource.md) /
+[SignaturesResource](signaturesresource.md) /
 
 # Class: SignaturesResource
 
@@ -40,7 +40,7 @@
 
 *Overrides [APIResource](apiresource.md).[constructor](apiresource.md#constructor)*
 
-*Defined in [resources/signatures.ts:39](url)*
+*Defined in [resources/signatures.ts:38](url)*
 
 **Parameters:**
 
@@ -66,9 +66,9 @@ ___
 
 ###  broadcast
 
-● **broadcast**: *[APIHandler](../globals.md#apihandler)*
+● **broadcast**: *[APIHandler](../README.md#apihandler)*
 
-*Defined in [resources/signatures.ts:38](url)*
+*Defined in [resources/signatures.ts:37](url)*
 
 Submits a signature to sign a multisignature transaction.
 
@@ -92,7 +92,7 @@ ___
 
 *Overrides [APIResource](apiresource.md).[path](apiresource.md#path)*
 
-*Defined in [resources/signatures.ts:39](url)*
+*Defined in [resources/signatures.ts:38](url)*
 
 ___
 

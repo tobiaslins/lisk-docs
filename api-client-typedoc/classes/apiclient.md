@@ -1,6 +1,6 @@
 > ## [@liskhq/lisk-api-client](../README.md)
 
-[Globals](../globals.md) / [APIClient](apiclient.md) /
+[APIClient](apiclient.md) /
 
 # Class: APIClient
 
@@ -106,7 +106,7 @@ const testnetClient = APIClient.createTestnetAPIClient();
 
 \+ **new APIClient**(`nodes`: `ReadonlyArray<string>`, `providedOptions`: [InitOptions](../interfaces/initoptions.md)): *[APIClient](apiclient.md)*
 
-*Defined in [api_client.ts:173](url)*
+*Defined in [api_client.ts:171](url)*
 
 **Parameters:**
 
@@ -125,7 +125,7 @@ ___
 
 ● **accounts**: *[AccountsResource](accountsresource.md)*
 
-*Defined in [api_client.ts:159](url)*
+*Defined in [api_client.ts:157](url)*
 
 ___
 
@@ -133,7 +133,7 @@ ___
 
 ● **bannedNodes**: *`ReadonlyArray<string>`*
 
-*Defined in [api_client.ts:160](url)*
+*Defined in [api_client.ts:158](url)*
 
 ___
 
@@ -141,7 +141,7 @@ ___
 
 ● **blocks**: *[BlocksResource](blocksresource.md)*
 
-*Defined in [api_client.ts:161](url)*
+*Defined in [api_client.ts:159](url)*
 
 ___
 
@@ -149,7 +149,7 @@ ___
 
 ● **currentNode**: *string*
 
-*Defined in [api_client.ts:162](url)*
+*Defined in [api_client.ts:160](url)*
 
 ___
 
@@ -157,7 +157,7 @@ ___
 
 ● **dapps**: *[DappsResource](dappsresource.md)*
 
-*Defined in [api_client.ts:163](url)*
+*Defined in [api_client.ts:161](url)*
 
 ___
 
@@ -165,7 +165,7 @@ ___
 
 ● **delegates**: *[DelegatesResource](delegatesresource.md)*
 
-*Defined in [api_client.ts:164](url)*
+*Defined in [api_client.ts:162](url)*
 
 ___
 
@@ -173,7 +173,7 @@ ___
 
 ● **headers**: *[HashMap](../interfaces/hashmap.md)*
 
-*Defined in [api_client.ts:165](url)*
+*Defined in [api_client.ts:163](url)*
 
 ___
 
@@ -181,7 +181,7 @@ ___
 
 ● **node**: *[NodeResource](noderesource.md)*
 
-*Defined in [api_client.ts:166](url)*
+*Defined in [api_client.ts:164](url)*
 
 ___
 
@@ -189,7 +189,7 @@ ___
 
 ● **nodes**: *`ReadonlyArray<string>`*
 
-*Defined in [api_client.ts:167](url)*
+*Defined in [api_client.ts:165](url)*
 
 ___
 
@@ -197,7 +197,7 @@ ___
 
 ● **peers**: *[PeersResource](peersresource.md)*
 
-*Defined in [api_client.ts:168](url)*
+*Defined in [api_client.ts:166](url)*
 
 ___
 
@@ -205,7 +205,7 @@ ___
 
 ● **randomizeNodes**: *boolean*
 
-*Defined in [api_client.ts:169](url)*
+*Defined in [api_client.ts:167](url)*
 
 ___
 
@@ -213,7 +213,7 @@ ___
 
 ● **signatures**: *[SignaturesResource](signaturesresource.md)*
 
-*Defined in [api_client.ts:170](url)*
+*Defined in [api_client.ts:168](url)*
 
 ___
 
@@ -221,7 +221,7 @@ ___
 
 ● **transactions**: *[TransactionsResource](transactionsresource.md)*
 
-*Defined in [api_client.ts:171](url)*
+*Defined in [api_client.ts:169](url)*
 
 ___
 
@@ -229,7 +229,7 @@ ___
 
 ● **voters**: *[VotersResource](votersresource.md)*
 
-*Defined in [api_client.ts:172](url)*
+*Defined in [api_client.ts:170](url)*
 
 ___
 
@@ -237,7 +237,7 @@ ___
 
 ● **votes**: *[VotesResource](votesresource.md)*
 
-*Defined in [api_client.ts:173](url)*
+*Defined in [api_client.ts:171](url)*
 
 ___
 
@@ -247,7 +247,7 @@ ___
 
 ● **get constants**(): *`"/Users/mona/git/lisk-sdk/elements/lisk-api-client/src/constants"`*
 
-*Defined in [api_client.ts:141](url)*
+*Defined in [api_client.ts:139](url)*
 
 ## Constants
 
@@ -279,7 +279,7 @@ ___
 
 ▸ **banActiveNode**(): *boolean*
 
-*Defined in [api_client.ts:192](url)*
+*Defined in [api_client.ts:190](url)*
 
 **Returns:** *boolean*
 
@@ -289,7 +289,7 @@ ___
 
 ▸ **banActiveNodeAndSelect**(): *boolean*
 
-*Defined in [api_client.ts:205](url)*
+*Defined in [api_client.ts:203](url)*
 
 Bans the current node and selects a new random (non-banned) node.
 
@@ -307,7 +307,7 @@ ___
 
 ▸ **banNode**(`node`: string): *boolean*
 
-*Defined in [api_client.ts:223](url)*
+*Defined in [api_client.ts:221](url)*
 
 Adds a node to the list of banned nodes. Banned nodes will not be chosen to replace an unreachable node.
 
@@ -331,7 +331,7 @@ ___
 
 ▸ **getNewNode**(): *string*
 
-*Defined in [api_client.ts:242](url)*
+*Defined in [api_client.ts:240](url)*
 
 Selects a random node that has not been banned.
 
@@ -349,7 +349,7 @@ ___
 
 ▸ **hasAvailableNodes**(): *boolean*
 
-*Defined in [api_client.ts:265](url)*
+*Defined in [api_client.ts:263](url)*
 
 Tells you whether all the nodes have been banned or not.
 
@@ -367,7 +367,7 @@ ___
 
 ▸ **initialize**(`nodes`: `ReadonlyArray<string>`, `providedOptions`: [InitOptions](../interfaces/initoptions.md)): *void*
 
-*Defined in [api_client.ts:293](url)*
+*Defined in [api_client.ts:291](url)*
 
 Initialises the client instance with an array of nodes and an optional configuration object.
 This is called in the constructor, but can be called again later if necessary.
@@ -407,7 +407,7 @@ ___
 
 ▸ **isBanned**(`node`: string): *boolean*
 
-*Defined in [api_client.ts:330](url)*
+*Defined in [api_client.ts:328](url)*
 
 Tells you whether a specific node has been banned or not.
 
@@ -431,7 +431,7 @@ ___
 
 ▸ **createMainnetAPIClient**(`options?`: [InitOptions](../interfaces/initoptions.md)): *[APIClient](apiclient.md)*
 
-*Defined in [api_client.ts:145](url)*
+*Defined in [api_client.ts:143](url)*
 
 **Parameters:**
 
@@ -447,7 +447,7 @@ ___
 
 ▸ **createTestnetAPIClient**(`options?`: [InitOptions](../interfaces/initoptions.md)): *[APIClient](apiclient.md)*
 
-*Defined in [api_client.ts:152](url)*
+*Defined in [api_client.ts:150](url)*
 
 **Parameters:**
 

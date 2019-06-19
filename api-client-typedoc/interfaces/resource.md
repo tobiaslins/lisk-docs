@@ -1,6 +1,6 @@
 > ## [@liskhq/lisk-api-client](../README.md)
 
-[Globals](../globals.md) / [Resource](resource.md) /
+[Resource](resource.md) /
 
 # Interface: Resource
 

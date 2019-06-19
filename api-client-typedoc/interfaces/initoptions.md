@@ -1,6 +1,6 @@
 > ## [@liskhq/lisk-api-client](../README.md)
 
-[Globals](../globals.md) / [InitOptions](initoptions.md) /
+[InitOptions](initoptions.md) /
 
 # Interface: InitOptions
 

@@ -1,6 +1,6 @@
 > ## [@liskhq/lisk-api-client](../README.md)
 
-[Globals](../globals.md) / [PeersResource](peersresource.md) /
+[PeersResource](peersresource.md) /
 
 # Class: PeersResource
 
@@ -40,7 +40,7 @@
 
 *Overrides [APIResource](apiresource.md).[constructor](apiresource.md#constructor)*
 
-*Defined in [resources/peers.ts:35](url)*
+*Defined in [resources/peers.ts:34](url)*
 
 **Parameters:**
 
@@ -66,9 +66,9 @@ ___
 
 ###  get
 
-● **get**: *[APIHandler](../globals.md#apihandler)*
+● **get**: *[APIHandler](../README.md#apihandler)*
 
-*Defined in [resources/peers.ts:34](url)*
+*Defined in [resources/peers.ts:33](url)*
 
 Searches for specified peers.
 
@@ -88,7 +88,7 @@ ___
 
 *Overrides [APIResource](apiresource.md).[path](apiresource.md#path)*
 
-*Defined in [resources/peers.ts:35](url)*
+*Defined in [resources/peers.ts:34](url)*
 
 ___
 

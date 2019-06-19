@@ -1,6 +1,6 @@
 > ## [@liskhq/lisk-api-client](../README.md)
 
-[Globals](../globals.md) / [APIResource](apiresource.md) /
+[APIResource](apiresource.md) /
 
 # Class: APIResource
 

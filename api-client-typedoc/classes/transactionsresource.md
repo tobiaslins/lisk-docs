@@ -1,6 +1,6 @@
 > ## [@liskhq/lisk-api-client](../README.md)
 
-[Globals](../globals.md) / [TransactionsResource](transactionsresource.md) /
+[TransactionsResource](transactionsresource.md) /
 
 # Class: TransactionsResource
 
@@ -41,7 +41,7 @@
 
 *Overrides [APIResource](apiresource.md).[constructor](apiresource.md#constructor)*
 
-*Defined in [resources/transactions.ts:64](url)*
+*Defined in [resources/transactions.ts:63](url)*
 
 **Parameters:**
 
@@ -67,9 +67,9 @@ ___
 
 ###  broadcast
 
-● **broadcast**: *[APIHandler](../globals.md#apihandler)*
+● **broadcast**: *[APIHandler](../README.md#apihandler)*
 
-*Defined in [resources/transactions.ts:50](url)*
+*Defined in [resources/transactions.ts:49](url)*
 
 Submits a signed transaction object for processing by the transaction pool.
 
@@ -101,9 +101,9 @@ ___
 
 ###  get
 
-● **get**: *[APIHandler](../globals.md#apihandler)*
+● **get**: *[APIHandler](../README.md#apihandler)*
 
-*Defined in [resources/transactions.ts:63](url)*
+*Defined in [resources/transactions.ts:62](url)*
 
 Searches for a specified transaction in the system.
 
@@ -123,7 +123,7 @@ ___
 
 *Overrides [APIResource](apiresource.md).[path](apiresource.md#path)*
 
-*Defined in [resources/transactions.ts:64](url)*
+*Defined in [resources/transactions.ts:63](url)*
 
 ___
 

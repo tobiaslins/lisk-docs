@@ -1,6 +1,6 @@
 > ## [@liskhq/lisk-api-client](../README.md)
 
-[Globals](../globals.md) / [DappsResource](dappsresource.md) /
+[DappsResource](dappsresource.md) /
 
 # Class: DappsResource
 
@@ -66,7 +66,7 @@ ___
 
 ###  get
 
-● **get**: *[APIHandler](../globals.md#apihandler)*
+● **get**: *[APIHandler](../README.md#apihandler)*
 
 *Defined in [resources/dapps.ts:33](url)*
 

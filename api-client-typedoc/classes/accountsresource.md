@@ -1,6 +1,6 @@
 > ## [@liskhq/lisk-api-client](../README.md)
 
-[Globals](../globals.md) / [AccountsResource](accountsresource.md) /
+[AccountsResource](accountsresource.md) /
 
 # Class: AccountsResource
 
@@ -68,7 +68,7 @@ ___
 
 ###  get
 
-● **get**: *[APIHandler](../globals.md#apihandler)*
+● **get**: *[APIHandler](../README.md#apihandler)*
 
 *Defined in [resources/accounts.ts:33](url)*
 
@@ -86,7 +86,7 @@ ___
 
 ###  getMultisignatureGroups
 
-● **getMultisignatureGroups**: *[APIHandler](../globals.md#apihandler)*
+● **getMultisignatureGroups**: *[APIHandler](../README.md#apihandler)*
 
 *Defined in [resources/accounts.ts:46](url)*
 
@@ -104,7 +104,7 @@ ___
 
 ###  getMultisignatureMemberships
 
-● **getMultisignatureMemberships**: *[APIHandler](../globals.md#apihandler)*
+● **getMultisignatureMemberships**: *[APIHandler](../README.md#apihandler)*
 
 *Defined in [resources/accounts.ts:59](url)*
 
